@@ -85,6 +85,14 @@ else{serviceTime = "";}
             		"สอบถามเพิ่มเติม: <br>" + text3 + " <br>อีเมล "+ eMail + "<br>โทร. " + orgTel + "<br>ในวันทำการ ตั้งแต่เวลา " + serviceTime;
        		document.getElementById("emailForCopy").innerHTML = eMail;}
 
+	else if(text=="รหัส"){ 
+		window.alert(document.getElementById("iRequest").innerHTML = 
+            		"รหัสคำขอ " + text + " \n\n7 เมษายน 2566 \n\n18 เมษายน 2566 \n\nปัจจุบัน");
+       		document.getElementById("orgEmail").innerHTML = 
+            		"สอบถามเพิ่มเติม: <br>" + text3 + " <br>อีเมล "+ eMail + "<br>โทร. " + orgTel + "<br>ในวันทำการ ตั้งแต่เวลา " + serviceTime;
+       		document.getElementById("emailForCopy").innerHTML = eMail;}
+
+
 	else if (text==""){
  		window.alert("โปรดกรอกรหัสคำขอก่อนค่ะ");
       		document.getElementById("orgEmail").innerHTML = 
