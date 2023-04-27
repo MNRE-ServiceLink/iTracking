@@ -11,7 +11,9 @@
 		window.alert(document.getElementById("iRequest").innerHTML = 
             		"รหัสคำขอ " + text + " เติมรายละเอียดความคืบหน้าตรงนี้");
        		document.getElementById("orgEmail").innerHTML = 
-            		"สอบถามเพิ่มเติม: <br>" + text3 + " <br>อีเมล "+ eMail + "<br>โทร. " + orgTel + "<br>ในวันทำการ ตั้งแต่เวลา " + serviceTime;
+            		"สอบถามเพิ่มเติม: <br>" + text3 + " <br>อีเมล "+ eMail + 
+			"<br>โทร. " + orgTel + "<br>ในวันทำการ ตั้งแต่เวลา " + 
+			serviceTime;
        		document.getElementById("emailForCopy").innerHTML = eMail;}
 ```
 5. บันทึกการแก้ไข
