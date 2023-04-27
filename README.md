@@ -10,14 +10,14 @@
 5. แก้ไขข้อความ 2 แห่ง ใน Code ที่เพิ่งวางไป
 
 ```
-	else if(text=="เติมรหัสคำขอตรงนี้"){ 
-		window.alert(document.getElementById("iRequest").innerHTML = 
-            		"รหัสคำขอ " + text + " เติมรายละเอียดความคืบหน้าตรงนี้");
-       		document.getElementById("orgEmail").innerHTML = 
-            		"สอบถามเพิ่มเติม: <br>" + text3 + " <br>อีเมล "+ eMail + 
-			"<br>โทร. " + orgTel + "<br>ในวันทำการ ตั้งแต่เวลา " + 
-			serviceTime;
-       		document.getElementById("emailForCopy").innerHTML = eMail;}
+else if(text=="เติมรหัสคำขอตรงนี้"){ 
+  window.alert(document.getElementById("iRequest").innerHTML = 
+     "รหัสคำขอ " + text + " เติมรายละเอียดความคืบหน้าตรงนี้");
+  document.getElementById("orgEmail").innerHTML = 
+     "สอบถามเพิ่มเติม: <br>" + text3 + " <br>อีเมล "+ eMail + 
+     "<br>โทร. " + orgTel + "<br>ในวันทำการ ตั้งแต่เวลา " + 
+     serviceTime;
+ document.getElementById("emailForCopy").innerHTML = eMail;}
 ```
 5. บันทึกการแก้ไข
 6. จัดทำ QR Code ของโปรแกรม eTracking: URL
