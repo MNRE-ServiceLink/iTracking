@@ -21,8 +21,8 @@ else if(text=="เติมรหัสคำขอตรงนี้"){
  document.getElementById("emailForCopy").innerHTML = eMail;}
 ```
 5. บันทึกการแก้ไข
-6. จัดทำ QR Code ของโปรแกรม eTracking: URL
-7. แนบ QR Code ไว้ท้ายหนังสือขยายเวลา
+6. จัดทำ QR Code ของโปรแกรม eTracking: URL https://mnre-servicelink.github.io/iTracking/
+7. แจ้ง QR Code และรหัสคำขอ ให้ผู้ยื่นคำขอทราบ
 
 ## History
 v1.0.0 | 27 April 2023
