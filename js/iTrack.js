@@ -78,12 +78,13 @@ else{serviceTime = "";}
   // Report the progress, according to the submission ID
 	if(text=="AA123456"){window.alert("รหัสคำขอนี้ เป็นเพียงตัวอย่าง ไม่มีข้อมูลความคืบหน้าค่ะ");}
 
-	else if(text=="AA999999"){ 
+	else if(text=="SH124424"){ 
 		window.alert(document.getElementById("iRequest").innerHTML = 
-            		"รหัสคำขอ " + text + " อยู่ระหว่างการพิจารณาของคณะกรรมการข้อมูลข่าวสารของ สป.ทส. ค่ะ");
+            		"รหัสคำขอ " + text + " \n\n7 เมษายน 2566 กรมบัญชีกลางได้สอบถาม สป.ทส. ว่า ผู้ขอยังต้องการขอข้อมูลข่าวสารของกรมบัญชีกลางหรือไม่ \n\n18 เมษายน 2566 สป.ทส. แจ้งกรมบัญชีกลางว่า ผู้ขอยังมีความประสงค์ขอข้อมูลข่าวสารดังกล่าว \n\nปัจจุบัน รอผลการพิจารณาของกรมบัญชีกลาง");
        		document.getElementById("orgEmail").innerHTML = 
             		"สอบถามเพิ่มเติม: <br>" + text3 + " <br>อีเมล "+ eMail + "<br>โทร. " + orgTel + "<br>ในวันทำการ ตั้งแต่เวลา " + serviceTime;
        		document.getElementById("emailForCopy").innerHTML = eMail;}
+
 	else if (text==""){
  		window.alert("โปรดกรอกรหัสคำขอก่อนค่ะ");
       		document.getElementById("orgEmail").innerHTML = 
