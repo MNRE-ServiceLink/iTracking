@@ -29,6 +29,10 @@ input[name=fname] {
      	width:50%;
 }
 
+input[name=yourCode] {
+     	width:50%;
+}
+
 input[name=iDCard] {
      	width:50%;
 }
