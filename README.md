@@ -3,7 +3,7 @@
 พัฒนาเมื่อ ปี พ.ศ. 2566
 ## คู่มือการใช้โปรแกรม eTracking สำหรับเจ้าหน้าที่
 1. รับคำขอ
-2. ออกรหัสคำขอ ด้วยโปรแกรม [ID Gen](https://kietpawpan.github.io/chatBot/IDGen.html)
+2. ออกรหัสคำขอ ด้วยโปรแกรม [ID Gen](https://kietpawpan.github.io/chatBot/IDGen.html)<sup>TM</sup>
 3. แก้ไขไฟล์ iTrack.js โดยเพิ่มเติมข้อมูลความคืบหน้า
 
 ```
