@@ -1,6 +1,7 @@
 The code in this repo relies on jTech's code at 
-https://github.com/kietpawpan,
-(MIT License)
+https://github.com/kietpawpan, which relies on
+many others' works as noted at
+https://raw.githubusercontent.com/Kietpawpan/chatBot/main/LICENSE
 
 Aside from the above copyright materials, other contents in this repo
 is as follows:
