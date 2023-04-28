@@ -3,12 +3,12 @@
 พัฒนาเมื่อ ปี พ.ศ. 2566
 ## Officers' Manual
 คู่มือการดูแลระบบติดตามสถานะคำขอ (e-Tracking) สำหรับเจ้าหน้าที่
-1. รับคำขอ
-2. ออกรหัสคำขอ ด้วยโปรแกรม [ID Gen](https://kietpawpan.github.io/chatBot/IDGen.html)<sup>TM</sup>
-3. หน่วยงานที่รับคำขอ แจ้งรหัสคำขอ และความคืบหน้าให้ ทส. ทราบทางอีเมล servicelinkcenter@mnre.go.th
-4. ทส.  update โปรแกรม โดยคลิกที่เมนู <> Code ด้านบน เพื่อเปิดไฟล์ iTrack.js
-5. คัดลอก Code ด้านล่างนี้  วางในไฟล์ iTrack.js
-6. แก้ไขข้อความ 2 แห่ง ใน Code ที่เพิ่งวางไป
+1. เจ้าหน้าที่ รับคำขอ จากประชาชน
+2. เจ้าหน้าที่แต่ละหน่วยงาน ออกรหัสคำขอ ด้วยโปรแกรม [ID Gen](https://kietpawpan.github.io/chatBot/IDGen.html)<sup>TM</sup>
+3. เจ้าหน้าที่ที่รับคำขอ แจ้งรหัสคำขอ ให้ประชาชนทราบ เพื่อใช้ติดตามผลผ่านเว็บเพจ https://mnre-servicelink.github.io/iTracking/
+4. เจ้าหน้าที่ที่รับคำขอ ส่งรหัสคำขอและข้อมูลความคืบหน้าให้ ทส. ทราบทางอีเมล servicelinkcenter@mnre.go.th ในวันที่รับคำขอ และแจ้งความคืบหน้าทุกครั้ง
+4. เจ้าหน้าที่ ศบร.ทส. update โปรแกรม โดยคลิกที่เมนู <> Code ด้านบน เพื่อเปิดไฟล์ iTrack.js โดยคัดลอก Code ด้านล่างนี้  วางในไฟล์ iTrack.js
+แล้วแก้ไขข้อความ 2 แห่ง ใน Code ดังนี้
 
 ```
 else if(text=="เติมรหัสคำขอตรงนี้"){ 
@@ -21,10 +21,9 @@ else if(text=="เติมรหัสคำขอตรงนี้"){
  document.getElementById("emailForCopy").innerHTML = eMail;}
 ```
 5. บันทึกการแก้ไข
-6. จัดทำ QR Code ของโปรแกรม eTracking: URL https://mnre-servicelink.github.io/iTracking/
-7. แจ้ง QR Code และรหัสคำขอ ให้ผู้ยื่นคำขอทราบ
+6. ประชาชน ติดตามความคืบหน้าผ่านเว็บเพจ https://mnre-servicelink.github.io/iTracking/
 
 ## History
-v1.0.0 | 27 April 2023
+v1.0.0 | 28 April 2023
 - Prototype
 - Adapted from Kietpawpan's jTech code
