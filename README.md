@@ -4,7 +4,7 @@
 ## Officers' Manual
 คู่มือการดูแลระบบติดตามสถานะคำขอ (e-Tracking) สำหรับเจ้าหน้าที่
 1. เจ้าหน้าที่ รับคำขอ จากประชาชน
-2. เจ้าหน้าที่แต่ละหน่วยงาน ออกรหัสคำขอ ด้วยโปรแกรม [ID Gen](https://mnre-servicelink.github.io/iTracking/IDGen.html)<sup></sup> ของศูนย์บริการร่วม กระทรวงทรัพยากรธรรมชาติและสิ่งแวดล้อม
+2. เจ้าหน้าที่แต่ละหน่วยงาน ออกรหัสคำขอ ด้วยโปรแกรม [ID Gen](https://mnre-servicelink.github.io/iTracking/IDGen.html)<sup></sup> 
 3. เจ้าหน้าที่ที่รับคำขอ แจ้งรหัสคำขอ ให้ประชาชนทราบ เพื่อใช้ติดตามผลผ่านระบบติดตามสถานะคำขอของกระทรวงทรัพยากรธรรมชาติและสิ่งแวดล้อม (e-Tracking) ทาง URL
 [https://mnre-servicelink.github.io/iTracking/](https://mnre-servicelink.github.io/iTracking/)
 4. เจ้าหน้าที่ที่รับคำขอ ส่งรหัสคำขอและข้อมูลความคืบหน้าให้ ทส. ทราบทางอีเมล servicelinkcenter@mnre.go.th ในวันที่รับคำขอ และแจ้งความคืบหน้าทุกครั้ง
