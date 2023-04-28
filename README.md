@@ -5,7 +5,7 @@
 คู่มือการดูแลระบบติดตามสถานะคำขอ (e-Tracking) สำหรับเจ้าหน้าที่
 1. เจ้าหน้าที่ รับคำขอ จากประชาชน
 2. เจ้าหน้าที่แต่ละหน่วยงาน ออกรหัสคำขอ ด้วยโปรแกรม [ID Gen](https://kietpawpan.github.io/chatBot/IDGen.html)<sup>TM</sup>
-3. เจ้าหน้าที่ที่รับคำขอ แจ้งรหัสคำขอ ให้ประชาชนทราบ เพื่อใช้ติดตามผลผ่านเว็บเพจ https://mnre-servicelink.github.io/iTracking/
+3. เจ้าหน้าที่ที่รับคำขอ แจ้งรหัสคำขอ ให้ประชาชนทราบ เพื่อใช้ติดตามผลผ่านเว็บเพจ [https://mnre-servicelink.github.io/iTracking/](https://mnre-servicelink.github.io/iTracking/)
 4. เจ้าหน้าที่ที่รับคำขอ ส่งรหัสคำขอและข้อมูลความคืบหน้าให้ ทส. ทราบทางอีเมล servicelinkcenter@mnre.go.th ในวันที่รับคำขอ และแจ้งความคืบหน้าทุกครั้ง
 4. เจ้าหน้าที่ ศบร.ทส. update โปรแกรม โดยคลิกที่เมนู <> Code ด้านบน เพื่อเปิดไฟล์ iTrack.js โดยคัดลอก Code ด้านล่างนี้  วางในไฟล์ iTrack.js
 แล้วแก้ไขข้อความ 2 แห่ง ใน Code ดังนี้
@@ -21,7 +21,8 @@ else if(text=="เติมรหัสคำขอตรงนี้"){
  document.getElementById("emailForCopy").innerHTML = eMail;}
 ```
 5. บันทึกการแก้ไข
-6. ประชาชน ติดตามความคืบหน้าผ่านเว็บเพจ https://mnre-servicelink.github.io/iTracking/
+6. ประชาชน ติดตามความคืบหน้าผ่านเว็บเพจระบบติดตามสถานะคำขอของกระทรวงทรัพยากรธรรมชาติและสิ่งแวดล้อม
+ [https://mnre-servicelink.github.io/iTracking/](https://mnre-servicelink.github.io/iTracking/)
 
 ## History
 v1.0.0 | 28 April 2023
